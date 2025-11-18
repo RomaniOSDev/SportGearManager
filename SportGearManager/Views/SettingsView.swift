@@ -73,12 +73,12 @@ struct SettingsView: View {
             .background(Color.backColorApp)
             .navigationTitle("Settings")
             .sheet(isPresented: $showingPrivacy) {
-                WebView(url: "https://www.apple.com/legal/privacy/")
+                WebView(url: "https://www.termsfeed.com/live/9279f2ff-fb67-44ae-9135-09394cf5a8c7")
                     .navigationTitle("Privacy Policy")
                     .navigationBarTitleDisplayMode(.inline)
             }
             .sheet(isPresented: $showingTerms) {
-                WebView(url: "https://www.apple.com/legal/internet-services/terms/site.html")
+                WebView(url: "https://www.termsfeed.com/live/1385150d-6626-413a-bf41-38ffda12568f")
                     .navigationTitle("Terms of Service")
                     .navigationBarTitleDisplayMode(.inline)
             }
